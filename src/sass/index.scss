@@ -1,2 +1,30 @@
 @import './common';
 @import './example';
+
+body {
+    background-image: url('../images/cats.jpg');
+    background-size: cover;
+}
+
+.breed-select {
+    margin: 20px;
+    padding: 10px;
+}
+
+img {
+    width: 30%;
+}
+
+.container {
+    font-size: 18px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    margin: 18px;
+}
+p {
+    margin: 18px;
+}
